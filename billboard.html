@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <meta charset="utf-8">
+          <script src="https://accounts.google.com/gsi/client" async></script>
+          <style> @import "worlddesign.css"</style>
+          <script src="worlddesign.js"></script>
+          <title>Hututi World - 게시판</title>
+    </head>
+   
+    <body>
+       <div id="login"> 
+                 <!-- Google Identity Services 설정 -->
+                <div
+                  id="g_id_onload"
+                  data-auto_prompt="false"
+                  data-callback="handleCredentialResponse"
+                  data-client_id="531232052628-6n06d011qt40tcndqpie2qq4r2neq0cj.apps.googleusercontent.com"
+                ></div>
+                <!-- Google 로그인 버튼 -->
+                <div class="g_id_signin"></div>
+        </div>    
+                <!-- 로그아웃 버튼 -->
+                <button onclick="logout()">로그아웃</button>
+           
+                
+        <header>
+                <h1><a href="index.html">Hututi World</a></h1>
+       </header>
+        
+        <main>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">작가소개</a></li>
+                        <li><a href="novels.html">소설</a></li>
+                        <li><a href="gallery.html">갤러리</a></li>
+                        <li><a href="products.html">상품</a></li>
+                        <li><a href="blogs.html">블로그</a></li>
+                        <li><a href="billboard.html">게시판</a></li>
+                    </ul>
+                </nav>
+        
+                <content>
+                    <h2 id="category">게시판</h2>
+                    
+                    
+                </content>
+        </main>
+
+        <footer>
+            <input id="night_day" type="button" value="night" onclick="nightDayHandler(this);">
+
+            &lt;-- 그닥 쓸모는 없지만 재밌는 버튼 
+        </footer>
+
+               
+    </body>
+</html>
