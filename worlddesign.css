@@ -1,0 +1,86 @@
+
+
+ body{ 
+           background-color: #c0eeff}
+           
+        #login{
+            width: 200px;
+           }
+
+        header{
+            text-align:center;
+            padding:20px;
+           }
+
+            #소설소개{
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 10px;
+                }
+
+            #소설줄거리{
+                font-size: small;
+            }
+           
+           main{display: grid;
+           grid-template-columns: 170px 1fr;
+               max-width: 800px;
+               margin: 0 auto;
+           }
+           
+           nav,content{
+               border:1px solid gray;
+               height: 500px;
+               background-color: white;
+           }
+           
+           nav{border-right:hidden;
+           border-radius: 20px 0 0 20px;}
+      
+           nav ul{
+               line-height: 2;
+           }
+      
+           content{
+               border-radius: 0 20px 20px 0;
+           }
+           
+           a:link,a:visited,a:active {color:black;
+           text-decoration:none;}
+           
+           a:hover{text-decoration-line:underline}
+
+            #소설링크{
+                text-decoration-line: underline; 
+            }
+           
+           #category{
+             text-align: center;
+             padding-top:20px;
+             padding-bottom: 20px;
+             margin-top:0;
+             background-color: antiquewhite;
+             border-radius: 0 20px 0 0;
+           }
+           
+           #작가소개2{
+               padding-top:20px;
+               text-align: center;
+           }
+           
+           #artistimage{
+               border-radius:50%;
+           }
+           
+           footer{margin-top:10px;
+           margin-bottom:60px;
+          text-align: center;
+           }
+           
+           #night_day{border:1px solid;
+               border-color: gray;
+           background-color: antiquewhite;
+           border-radius:40px}
+
+           
+           
